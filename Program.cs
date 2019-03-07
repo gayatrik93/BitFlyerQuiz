@@ -55,7 +55,7 @@ namespace BitFlyer
 
         static void Main(string[] args)
         {
-            string[] userInput = File.ReadAllLines("D:\\LocalData\\FCT00142\\Desktop\\input.txt", Encoding.UTF8);
+            string[] userInput = File.ReadAllLines("BitFlyerQuiz\\input.txt", Encoding.UTF8);
             
             int[] transacSize = new int[userInput.Length];
             double[] fee = new double[userInput.Length];
